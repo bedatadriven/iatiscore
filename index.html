@@ -22,6 +22,10 @@
         padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
+    
+    #chart {
+        margin-top: 10px;
+    }
 
     #chart rect {
         fill: steelblue;
@@ -85,18 +89,45 @@
 
                 <div><select id="country">
                     <option>Global Comparison</option>
-                    <optgroup label="OECD">
-                        <option value="NL" selected>Netherlands</option>
+                    <optgroup label="By Country">
+                        <option value="AU">Australia</option>
+                        <option value="BD">Bangladesh</option>
+                        <option value="BE">Belgium</option>
+                        <option value="CA">Canada</option>
+                        <option value="CH">Switzerland</option>
+                        <option value="DE">Germany</option>
+                        <option value="DK">Denmark</option>
+                        <option value="ES">Spain</option>
+                        <option value="FI">Finland</option>
+                        <option value="FR">France</option>
                         <option value="GB">United Kingdom</option>
+                        <option value="GH">Ghana</option>
+                        <option value="IE">Ireland</option>
+                        <option value="IM">Isle of Man</option>
+                        <option value="IN">India</option>
+                        <option value="IT">Italy</option>
+                        <option value="JP">Japan</option>
+                        <option value="KE">Kenya</option>
+                        <option value="KR">Korea, South</option>
+                        <option value="MW">Malawi</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="NL" selected>Netherlands</option>
+                        <option value="NO">Norway</option>
+                        <option value="NP">Nepal</option>
+                        <option value="PK">Pakistan</option>
+                        <option value="RO">Romania</option>
+                        <option value="SE">Sweden</option>
+                        <option value="SK">Slovakia</option>
+                        <option value="UG">Uganda</option>
                         <option value="US">United States</option>
+                        <option value="ZA">South Africa</option>
+                        <option value="ZW">Zimbabwe</option>
                     </optgroup>
                 </select>
                 </div>
                 
                 <svg id="chart"></svg>
 
-
-              
             </div>
         </div>
         <!-- /.row -->
@@ -143,11 +174,13 @@
                         .range([0, width])
                         .domain([0, maxScore]);
 
-                var selection = chart.selectAll("g")
-                        .data(data)
-                        .enter();
+                chart.selectAll("g").remove();
                 
-                var bar = selection.append("g")
+                var selection = chart.selectAll("g").data(data);
+                
+                var bar = selection
+                        .enter()
+                        .append("g")
                         .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; })
 
                 bar.append("rect")
@@ -160,7 +193,6 @@
                         .attr("dy", ".35em")
                         .text(function(d) { return d.name; });
                 
-                selection.exit();
                 
             });
         };
