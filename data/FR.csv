@@ -1,5 +1,6 @@
-"name","iati_id","score"
-"acted","FR-SIRET-4028868160030",14.740916644223
-"hifed","FR-PDR-W691075333",13.097869141493
-"afd","FR-3",8.77042040345259
-"france","FR-6",2.27791177108884
+"iati_id","name","country","source_type","org_type","ref_score"
+"FR-3","AFD","FR","primary_source","15",NA
+"FR-6","MFA","FR","primary_source","10",0.166170634920967
+"FR-PDR-W691075333","Handicap International Federation","FR","primary_source","21",0.709722222223125
+"FR-SIRET-4028868160030","ACTED","FR","primary_source","21",0
+NA,NA,NA,NA,NA,NA

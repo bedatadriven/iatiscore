@@ -1,6 +1,7 @@
-"name","iati_id","score"
-"m2m_sa","ZA-NPO-025-359",10.9611393499654
-"hsa","ZA-NPO-013484",10.1400746474974
-"gl","ZA-CIPC-2001/005850/08",5.51605025888421
-"solidaridad-southern-africa","ZA-NPO-TBD",4.23153801471926
-"dthfxx12","ZA-ROC-1999/05072/08",0.865091989981011
+"iati_id","name","country","source_type","org_type","ref_score"
+"ZA-CIPC-2001/005850/08","GENDER LINKS","ZA","primary_source","23",0
+"ZA-NPO-013484","Heifer Project South Africa","ZA","primary_source","22",0.279411764706
+"ZA-NPO-025-359","mothers2mothers South Africa","ZA","primary_source","21",1.02777777778
+"ZA-NPO-TBD","Solidaridad Southern Africa","ZA","primary_source","21",0.5
+"ZA-ROC-1999/05072/08","Desmond Tutu HIV Foundation","ZA","primary_source","80",1.0833333333354
+NA,NA,NA,NA,NA,NA

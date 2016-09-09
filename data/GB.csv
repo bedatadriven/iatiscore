@@ -1,149 +1,150 @@
-"name","iati_id","score"
-"bbcmediaaction","GB-CHC-1076235",13.9742341940291
-"network4africa","GB-CHC-1120932",13.9383371116128
-"mifumi_uk","GB-CHC-1038785",13.9350503892638
-"childhopeuk","GB-CHC-328434",13.7165586836636
-"integrity_action","GB-COH-4884328",13.6937544168904
-"dfid","GB-GOV-1",13.6609880381729
-"livelyminds","GB-CHC-1125512",13.6434313177597
-"power","GB-CHC-1059996",13.4383533115033
-"ss-org","GB-CHC-207544",13.2903721067123
-"ai_1064413","GB-CHC-1064413",13.0602556583472
-"wccuk","GB-CHC-1084729",12.9745617590379
-"waronwant","GB-CHC-208724",12.9493477090728
-"hha","GB-CHC-1117528",12.8980932827108
-"beesfordevelopment","GB-CHC-1078803",12.8788250964135
-"acf","GB-CHC-1047501",12.8749926143792
-"concernuk","GB-CHC-1092236",12.8613741591107
-"ip-india","GB-CHC-1114944",12.6650993339717
-"interburns","GB-CHC-1122299",12.5192736822646
-"cord","GB-CHC-1070684",12.5139834510628
-"muslimaid","GB-CHC-295224",12.5089759484399
-"tamtf","GB-CHC-1112699",12.4988151399884
-"theict","GB-CHC-254781",12.3761120438576
-"hpa","GB-CHC-1837621",12.3728212038986
-"fyf","GB-CHC-250456",12.3627444414888
-"ippf","GB-CHC-229476",12.3397577006835
-"wowni","GB-COH-NI011322",12.3273430159315
-"zet","GB-CHC-327519",12.2922655160073
-"targettb","GB-CHC-1098752",12.2678605432156
-"options","GB-COH-2695347",12.2607015597168
-"phase_worldwide","GB-CHC-1112734",11.7989394126926
-"acord","GB-CHC-283302",11.7252582788933
-"wateraid","GB-CHC-288701",11.709962321911
-"wsup","GB-COH-5419428",11.5510563366115
-"bauk","GB-CHC-1108464",11.5096562972758
-"eel","GB-CHC-1154085",11.4888332155533
-"indtrust","GB-CHC-1075920",11.3647134380881
-"ftm-291333","GB-CHC-291333",11.3326255709399
-"addinternational","GB-COH-294860",11.2817282381002
-"tbalert","GB-CHC-1071886",11.2741784169339
-"rfuk","GB-CHC-1138287",11.1336635635234
-"cr","GB-CHC-1055436",11.0815054911654
-"ctc","GB-CHC-1152010",11.0619179578498
-"tfac","GB-CHC-1104458",10.9852198592853
-"phe","GB-CHC-1094272",10.9455431182869
-"amrefha","GB-CHC-261488",10.8664200827479
-"mic-uk","GB-CHC-1120413",10.6466006138362
-"cdc","GB-COH-03877777",10.4333677352406
-"mstamp","GB-COH-00637978",9.85707967425697
-"lepra","GB-CHC-213251",9.80559493065812
-"tearfund","GB-CHC-265464",9.7369181108661
-"troc","GB-COH-NI21482",9.71177092054859
-"ageintl","GB-CHC-1128267-8",9.70744514255784
-"thefreedomfund","GB-COH-1158838",9.64943020837381
-"hp_12","GB-COH-4887855",9.18983976007439
-"dipr","GB-COH-06368740",9.11363050807267
-"malariaconsortium","GB-CHC-1099776",9.04465673840605
-"growmovement_admin","GB-CHC-1139083",9.02537154383026
-"ablechildafrica","GB-CHC-326859",9.01054288493469
-"sct","GB-CHC-1105489",8.97564080078155
-"scuk","GB-COH-213890",8.92654505325481
-"cu","GB-CHC-272465",8.72178258374333
-"sendacow","GB-CHC-299717",8.65475428872742
-"ced","GB-CHC-293734",8.60605827067047
-"aa","21020",8.4736706293188
-"cecily","GB-CHC-1071660",8.36992113967426
-"foe_ewni","GB-CHC-281681",8.15968113485724
-"art19","GB-CHC-327421",8.12656892230734
-"dc","GB-COH-07629751",8.07832372142002
-"wygi","GB-COH-3195485",8.01954870577902
-"plan_uk","GB-COH-1364201",7.67260853899643
-"cic","GB-CHC-1020488",7.66119858948514
-"peas","GB-CHC-1126550",7.55151358782314
-"cal","GB-COH-03259922",7.44957895833068
-"nri","GB-COH-00986729",7.44340819772333
-"fa","GB-COH-01926828",7.24758401163854
-"asil","GB-CHC-1049160",7.24021819769405
-"akfuk73","GB-COH-1100897",7.21399928675964
-"cww","GB-CHC-1150214",7.16677786200307
-"pwyf","GB-COH-07676886",7.11735968710855
-"adrauk","GB-CHC-1074937",7.08611423615366
-"open_university","GB-CHC-000391",6.94101182394661
-"fh","GB-CHC-328273",6.72590655391105
-"hagar_uk","GB-CHC-1143852",6.67983136489056
-"atosuk","GB-COH-01245534",6.64698328706436
-"allwecan","GB-CHC-291691",6.2396866036579
-"lcd_admin","GB-CHC-218186",6.22334988671355
-"mlf","GB-CHC-1104287",6.21872211573645
-"helpage_international","GB-COH-1762840",5.95418187906034
-"deccadmin","GB-4",5.91672056587413
-"womankindworld","GB-CHC-328206",5.90671478421427
-"apt","GB-CHC-290836",5.90275550144725
-"lhcf","GB-CHC-1101217",5.9010938834399
-"iodparc","GB-COH-03613839",5.89891373645514
-"mag","GB-CHC-1083008",5.83253285265528
-"rojiroti","GB-CHC-1147083",5.72359967627563
-"spuk","GB-CHC-1001349",5.67830469226465
-"hi","GB-CHC-1017255",5.22112335311249
-"sense_international","GB-CHC-1076497",5.04722167854197
-"hauk","GB-CHC-1024903",5.01097006956115
-"rc","GB-CHC-1058991",4.96524309972301
-"frankwater","GB-CHC-1121273",4.77605749620125
-"pumpaid","GB-CHC-1077889",4.75441233138554
-"wcf","GB-CHC-1085096",4.73209785763174
-"starsfoundation","GB-CHC-1087997",4.64121082099155
-"kpmgllp","GB-COH-OC301540",4.62070005596615
-"coffey","GB-COH-3799145",4.25388232455589
-"opportunity-international-uk","GB-COH-05322719",4.2121981875971
-"blueventures","GB-CC-1098893",4.16620310163125
-"shelterbox","GB-CHC-1096479",4.15097526856698
-"vao","GB-CHC-1081695",4.04580371570773
-"si","GB-CHC-1127206",3.98521209019236
-"street_child","GB-CHC-1128536",3.83662562118843
-"dai-e","GB-COH-1858644",3.54101888020523
-"mce","GB-SC-SC030289",3.34248661296442
-"itad","GB-COH-1869600",3.3182191173546
-"nidos","GB-SC-035314",3.25691164238378
-"ids","GB-COH-877338",3.24319250648841
-"ycare","GB-CHC-1109789",3.17845919402316
-"htspe","GB-COH-06407873",3.16694745328277
-"imc_uk","GB-CHC-1093861",3.11089508584701
-"hhc","GB-CHC-1089490",3.04899806971662
-"cifal","GB-SC-037597",2.8445486468263
-"wfa","XM-DAC-12-22",2.51776266843081
-"evc","GB-CHC-1089879",2.47322480077855
-"icauk","GB-CHC-1090745",2.31055897311307
-"retrak","GB-CHC-1122799",2.15705146780238
-"onetoonecf","GB-CHC-1086159",2.09095316240564
-"wellfound","GB-CHC-1110434",2.07907015224919
-"asi","GB-COH-2732176",2.05368623952381
-"simlab","GB-COH-7557881",2.00329914456233
-"buildafrica","GB-CHC-298316",1.94574950728565
-"sciaf","GB-SC-SC012302",1.93581118248403
-"fm","GB-COH-3008440",1.65014444966801
-"welbodipartnership","GB-CHC-1125217",1.40392572619021
-"saferworld","GB-CHC-1043843",1.11595165450126
-"excellent","GB-CHC-1094478",1.02373503847048
-"diltuk","GB-CHC-1122924",0.967887856531888
-"tlmew","GB-CHC-1050327",0.951251965016127
-"viva","GB-CHC-1053389",0.920328930951655
-"handinhand","GB-CHC-1113868",0.902224599849433
-"acaa","GB-CHC-1096908",0.640268193092197
-"vfan","GB-CHC-1140123",0.616677284706384
-"vso","GB-CHC-313757",0.585724135162309
-"uq","GB-COH-SC301345",0.571123624686152
-"caid","GB-CHC-1105851",0.569032884668559
-"restless","GB-CHC-1127488",0.546774660469964
-"msi","GB-COH-1102208",0.511638616444543
-"ri-uk","GB-CHC-1098106",0.136278080753982
+"iati_id","name","country","source_type","org_type","ref_score"
+"21020","AIDS Alliance","GB","primary_source","21",NA
+"GB-4","UK Department of Energy and Climate Change","GB","primary_source","10",NA
+"GB-CC-1098893"," blueventures-org","GB","primary_source","21",0.345238095238
+"GB-CHC-000391","The Open University","GB","primary_source","80",0.351851851852
+"GB-CHC-1001349","Samaritan's Purse UK","GB","primary_source","21",1.07463524130367
+"GB-CHC-1017255"," hi-org","GB","","21",0.6541666666665
+"GB-CHC-1020488"," cic-org","GB","primary_source","21",0.4532203907205
+"GB-CHC-1024903","Hospice Africa Ltd","GB","primary_source","80",0.366666666667
+"GB-CHC-1038785","Mifumi UK","GB","primary_source","21",0
+"GB-CHC-1043843","Saferworld","GB","primary_source","21",0.253348870412524
+"GB-CHC-1047501","Action Against Hunger","GB","primary_source","21",NA
+"GB-CHC-1049160","Anti-Slavery International","GB","primary_source","21",0.4040904471545
+"GB-CHC-1050327"," tlmew-org","GB","primary_source","21",0.7752976190485
+"GB-CHC-1053389","Viva","GB","primary_source","21",0.359259259259
+"GB-CHC-1055436","Conciliation Resources","GB","primary_source","21",1.16666666667
+"GB-CHC-1058991","Railway Children","GB","","21",0.61268939393925
+"GB-CHC-1059996","Power International","GB","primary_source","21",1
+"GB-CHC-1064413"," ai_1064413-org","GB","primary_source","21",1.07407407407
+"GB-CHC-1070684","Cord","GB","primary_source","23",0.846666666667
+"GB-CHC-1071660","Cecily's Fund","GB","primary_source","21",0.71568627451
+"GB-CHC-1071886","TB Alert","GB","primary_source","21",0.50407000407
+"GB-CHC-1074937","ADRA-UK","GB","","21",0.938044871795
+"GB-CHC-1075920","","GB","primary_source","60",0.166666666667
+"GB-CHC-1076235","BBC Media Action","GB","primary_source","21",0.440677966102
+"GB-CHC-1076497","Sense International","GB","","21",1.124035493825
+"GB-CHC-1077889","Pump Aid","GB","primary_source","21",0.5
+"GB-CHC-1078803","Bees for Development Trust","GB","primary_source","21",0.481481481481
+"GB-CHC-1081695","Vision Aid Overseas","GB","primary_source","21",0.904761904762
+"GB-CHC-1083008","MAG","GB","primary_source","21",0
+"GB-CHC-1084729","World Child Cancer UK","GB","primary_source","21",0.369565217391
+"GB-CHC-1085096","Women and Children First (UK)","GB","primary_source","21",0.8706944444445
+"GB-CHC-1086159","One to One Children's Fund","GB","primary_source","21",0.253623188406
+"GB-CHC-1087997","Stars Foundation","GB","primary_source","60",0.833333333333
+"GB-CHC-1089490","Hope and Homes for Children","GB","","21",0.59324009324
+"GB-CHC-1089879","EveryChild","GB","primary_source","21",1.083333333335
+"GB-CHC-1090745","ICA:UK","GB","primary_source","22",1
+"GB-CHC-1092236","Concern Worldwide (UK)","GB","primary_source","21",0.276495726495667
+"GB-CHC-1093861","International Medical Corps UK","GB","primary_source","21",0.5
+"GB-CHC-1094272","Project Harar","GB","primary_source","21",1.10683760684
+"GB-CHC-1094478","Excellent Development","GB","primary_source","21",NA
+"GB-CHC-1096479","ShelterBox","GB","primary_source","21",NA
+"GB-CHC-1096908"," acaa-org","GB","primary_source","21",0.824074074074
+"GB-CHC-1098106","Relief International UK","GB","primary_source","21",0.570707070707
+"GB-CHC-1098752","Target Tuberculosis","GB","primary_source","21",0.8338133640555
+"GB-CHC-1099776","Malaria Consortium","GB","primary_source","21",0.971675799949864
+"GB-CHC-1101217","LAMB Health Care Foundation","GB","primary_source","22",0.433333333333
+"GB-CHC-1104287","MicroLoan Foundation","GB","primary_source","21",NA
+"GB-CHC-1104458","Theatre for a Change UK","GB","primary_source","21",0.895238095238
+"GB-CHC-1105489","The Sabre Charitable Trust","GB","primary_source","21",0.426666666667
+"GB-CHC-1105851","Christian Aid","GB","primary_source","21",0.166666666667
+"GB-CHC-1108464","Bees Abroad UK","GB","primary_source","21",0.349206349206
+"GB-CHC-1109789","Y Care International","GB","","21",0.32902298850575
+"GB-CHC-1110434","WELLFOUND","GB","primary_source","21",0.625
+"GB-CHC-1112699","Teach A Man To Fish","GB","primary_source","21",0.28431372549
+"GB-CHC-1112734","PHASE Worldwide","GB","primary_source","21",0.5
+"GB-CHC-1113868","Hand in Hand International","GB","primary_source","21",0.440476190476
+"GB-CHC-1114944","iPartner India","GB","secondary_source","21",0.423611111111
+"GB-CHC-1117528","Haiti Hospital Appeal","GB","primary_source","21",0.38768115942
+"GB-CHC-1120413","MICAIA","GB","primary_source","21",0.775
+"GB-CHC-1120932","Network for Africa","GB","primary_source","21",0.688034188034
+"GB-CHC-1121273","FRANK Water","GB","primary_source","21",0
+"GB-CHC-1122299","Interburns","GB","primary_source","21",0.411111111111
+"GB-CHC-1122799","Retrak","GB","primary_source","21",NA
+"GB-CHC-1122924","Developments In Literacy Trust UK","GB","primary_source","21",1.04545454545
+"GB-CHC-1125217","Welbodi Partnership","GB","primary_source","80",0.388888888889
+"GB-CHC-1125512","Lively Minds","GB","primary_source","21",0.395833333333
+"GB-CHC-1126550","PEAS","GB","primary_source","21",0.1875
+"GB-CHC-1127206","StreetInvest","GB","primary_source","21",0.401515151515
+"GB-CHC-1127488","Restless Development","GB","primary_source","21",0.3113270947455
+"GB-CHC-1128267-8","HelpAge International UK","GB","primary_source","22",0.469696969697
+"GB-CHC-1128536","Street Child","GB","primary_source","21",0.440079745666333
+"GB-CHC-1138287"," rfuk-org","GB","primary_source","21",1.02355072464
+"GB-CHC-1139083","GROW Movement","GB","primary_source","80",0.2575757575755
+"GB-CHC-1140123"," vfan-org","GB","","21",0.833333333333
+"GB-CHC-1143852","hagar_uk","GB","primary_source","21",NA
+"GB-CHC-1147083","Rojiroti UK","GB","primary_source","21",1.06818181818
+"GB-CHC-1150214","Carers Worldwide","GB","primary_source","21",0.438596491228
+"GB-CHC-1152010","Child-to-Child","GB","primary_source","21",0.486486486486
+"GB-CHC-1154085","Exeter Ethiopia Link","GB","primary_source","21",0.611111111111
+"GB-CHC-1837621"," hpa-org","GB","primary_source","21",0.449019644089571
+"GB-CHC-207544","Sightsavers Organisational Data","GB","primary_source","21",0.175676536641917
+"GB-CHC-208724","War on Want","GB","primary_source","21",0.73400054466225
+"GB-CHC-213251","Lepra","GB","primary_source","21",0.391713747645667
+"GB-CHC-218186","Leonard Cheshire Disability","GB","primary_source","21",0.735507246377
+"GB-CHC-229476","International Planned Parenthood Federation","GB","primary_source","21",NA
+"GB-CHC-250456"," fyf-org","GB","primary_source","21",0.61925815584875
+"GB-CHC-254781","The International Children\'s Trust","GB","primary_source","21",0.457427757427667
+"GB-CHC-261488","Amref Health Africa - UK","GB","primary_source","21",1.10215053763
+"GB-CHC-265464","tearfund","GB","primary_source","21",0.4310846560845
+"GB-CHC-272465","Concern Universal","GB","primary_source","21",NA
+"GB-CHC-281681","Friends of the Earth England, Wales and Northern Ireland","GB","primary_source","22",1.05128205128
+"GB-CHC-283302","ACORD","GB","primary_source","21",0.787087912088
+"GB-CHC-288701","WaterAid","GB","primary_source","21",0.500005166575522
+"GB-CHC-290836","APT Action on Poverty","GB","","21",0.8537744555185
+"GB-CHC-291333","Feed the Minds","GB","primary_source","21",0.664814814813667
+"GB-CHC-291691","All We Can (formerly Methodist Relief and Development Fund)","GB","primary_source","21",1.08152173913
+"GB-CHC-293734","Christian Engineers in Development","GB","primary_source","21",0.5
+"GB-CHC-295224","Muslim Aid","GB","primary_source","21",1
+"GB-CHC-298316"," buildafrica-org","GB","primary_source","21",0.425925925926
+"GB-CHC-299717"," sendacow-org","GB","","21",0.790071763059833
+"GB-CHC-313757","Voluntary Service Overseas (VSO)","GB","primary_source","21",NA
+"GB-CHC-326859","AbleChildAfrica","GB","primary_source","21",NA
+"GB-CHC-327421"," art19-org","GB","primary_source","21",0.9779411764705
+"GB-CHC-327519","Zimbabwe Educational Trust","GB","primary_source","21",0.847222222222
+"GB-CHC-328206","Womankind Worldwide","GB","primary_source","21",0.598923352288577
+"GB-CHC-328273","Food for the Hungry UK","GB","primary_source","21",0.8191699604745
+"GB-CHC-328434"," childhopeuk-org","GB","primary_source","21",0.987663219673
+"GB-COH-00637978","Maxwell Stamp PLC","GB","primary_source","70",0.165714285714286
+"GB-COH-00986729","Natural Resources Institute, University of Greenwich","GB","primary_source","80",0.166666666667
+"GB-COH-01245534","Atos IT Services Ltd.","GB","primary_source","70",0.166666666667
+"GB-COH-01926828"," fa-org","GB","","21",0.2737012987015
+"GB-COH-03259922","Crown Agents Limited","GB","primary_source","70",0.756746031745429
+"GB-COH-03613839","IOD PARC","GB","primary_source","70",0.166666666667
+"GB-COH-03877777","CDC Group plc","GB","primary_source","15",0.927059712773853
+"GB-COH-05322719","Opportunity International","GB","primary_source","21",0.5503154253154
+"GB-COH-06368740","Development Initiatives Poverty Research Limited","GB","primary_source","21",0.21795612784325
+"GB-COH-06407873","HTSPE","GB","primary_source","70",1.041666666665
+"GB-COH-07629751","Digital Campus","GB","primary_source","80",0.772222222222
+"GB-COH-07676886","Publish What You Fund","GB","primary_source","21",0.166666666667
+"GB-COH-1100897"," akfuk73-org","GB","primary_source","21",0.7517361111115
+"GB-COH-1102208"," msi-org","GB","primary_source","21",0.2743055555555
+"GB-COH-1158838","The Freedom Fund","GB","primary_source","21",NA
+"GB-COH-1364201","Plan UK","GB","primary_source","21",0.191025641025692
+"GB-COH-1762840"," helpage_international-org","GB","primary_source","21",0.157520325203567
+"GB-COH-1858644","DAI Europe","GB","primary_source","70",0.398052464964364
+"GB-COH-1869600","Itad Limited","GB","primary_source","70",0.166666666667
+"GB-COH-213890","SCUK Organisation","GB","primary_source","21",0.453473487373271
+"GB-COH-2695347","Options Consultancy Services","GB","primary_source","70",0.166666666667
+"GB-COH-2732176","Adam Smith International","GB","primary_source","70",0.166666666667143
+"GB-COH-294860","ADD International","GB","","21",0.910060645441111
+"GB-COH-3008440"," fm-org","GB","","21",NA
+"GB-COH-3195485","WYG International Ltd","GB","primary_source","70",0.25
+"GB-COH-3799145","Coffey International Development","GB","primary_source","70",0.196626984127
+"GB-COH-4884328","Integrity Action","GB","primary_source","21",0.0507246376811304
+"GB-COH-4887855","HealthProm","GB","","21",0.185185185185
+"GB-COH-5419428"," wsup-org","GB","primary_source","30",1.06140350877
+"GB-COH-7557881","SIMLab Community Interest Company","GB","primary_source","21",0.469696969697
+"GB-COH-877338","The Institute of Development Studies","GB","primary_source","80",0.166666666667
+"GB-COH-NI011322","War on Want NI","GB","primary_source","21",0.383333333333
+"GB-COH-NI21482","Trocaire (Northern Ireland)","GB","primary_source","21",0.8231884057985
+"GB-COH-OC301540","KPMG LLP","GB","primary_source","70",0
+"GB-COH-SC301345","Upper Quartile","GB","primary_source","70",0.5
+"GB-GOV-1","DFID","GB","primary_source","10",0.2580402776295
+"GB-SC-035314","Network of International Development Organisations in Scotland","GB","primary_source","23",0.37037037037
+"GB-SC-037597","CIFAL Scotland","GB","primary_source","80",0.818181818182
+"GB-SC-SC012302","Scottish Catholic International Aid Fund","GB","primary_source","21",1.10109289617
+"GB-SC-SC030289","MERCY CORPS EUROPE","GB","primary_source","21",0.597841332456692
+"XM-DAC-12-22","Welsh Government","GB","primary_source","10",NA
+NA,NA,NA,NA,NA,NA

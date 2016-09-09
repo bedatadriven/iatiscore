@@ -1,6 +1,7 @@
-"name","iati_id","score"
-"kpmgea","TZ-BRLA-36057",9.38259481103159
-"kipkelion","GB-CHC-1142476",8.38086342439055
-"solidaridad-east-and-central-africa","KE-NCB-TBD",5.2087674185168
-"across","KE-NGC-9381",1.64997399318963
-"ke-ngc-3372","KE-NGC-3372",0.610469322418794
+"iati_id","name","country","source_type","org_type","ref_score"
+"GB-CHC-1142476","Friends of Kipkelion","KE","primary_source","23",0.583333333333
+"KE-NCB-TBD","Solidaridad East & Central Africa","KE","primary_source","21",0.5
+"KE-NGC-3372","I CHOOSE LIFE AFRICA","KE","primary_source","22",0.916666666667
+"KE-NGC-9381","Across","KE","primary_source","21",1.05
+"TZ-BRLA-36057","KPMG Advisory Ltd - Organisational File","KE","primary_source","70",0
+NA,NA,NA,NA,NA,NA

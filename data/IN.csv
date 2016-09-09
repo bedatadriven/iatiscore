@@ -1,7 +1,8 @@
-"name","iati_id","score"
-"mamta_himc","IN-",14.2498713789973
-"mia_india","IN-ITA-1886",14.1643000405747
-"ciks","ciks",12.7966254169587
-"pragya","IN-AR-775",12.3059037560597
-"oxfamindia","IN-MCA-U74999DL2004NPL131340",3.43807353288867
-"solidaridad-south-and-south-east-asia","IN-MCA-TBD",0.190587246324867
+"iati_id","name","country","source_type","org_type","ref_score"
+"ciks"," ciks-org","IN","primary_source","80",1.02300347222
+"IN-","MAMTA HEALTH INSTITUTE FOR MOTHER and CHILD","IN","primary_source","22",NA
+"IN-AR-775","Pragya","IN","","22",1.11805555556
+"IN-ITA-1886","Micro Insurance Academy","IN","primary_source","80",0.733333333333
+"IN-MCA-TBD","Solidaridad South & South-East Asia","IN","primary_source","21",0.5
+"IN-MCA-U74999DL2004NPL131340"," oxfamindia-org","IN","primary_source","22",NA
+NA,NA,NA,NA,NA,NA

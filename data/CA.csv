@@ -1,6 +1,7 @@
-"name","iati_id","score"
-"idrccrdi","XM-DAC-301-2",14.2483339004684
-"finance_canada","CA-4",9.59440637729131
-"gac-amc","CA-3",4.16584838647395
-"ewb_canada","CA-CRA-89980-1815-RR0001",3.95806596963666
-"wusc","CA-CRA_ARC-119304848",1.48927465779707
+"iati_id","name","country","source_type","org_type","ref_score"
+"CA-3","Canada -Global Affairs Canada | Affaires mondiales Canada -/Fichier de l'organisation","CA","primary_source","10",0.479880078126562
+"CA-4","Finance Canada/ Finances Canada Fichier de l’organisation","CA","primary_source","10",0.166666666667
+"CA-CRA-89980-1815-RR0001","Engineers Without Borders (Canada)","CA","primary_source","21",0.166666666667
+"CA-CRA_ARC-119304848","World University Service of Canada","CA","primary_source","21",0.386752136752
+"XM-DAC-301-2","IDRC IATI organization data set / Fichier de l'organisation du CRDI","CA","primary_source","15",0.162165662845995
+NA,NA,NA,NA,NA,NA

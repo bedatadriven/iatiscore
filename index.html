@@ -103,7 +103,7 @@
                 <div><select id="country">
                     <option>Global Comparison</option>
                     <optgroup label="OECD">
-                        <option value="NL">Netherlands</option>
+                        <option value="NL" selected>Netherlands</option>
                         <option value="GB">United Kingdom</option>
                         <option value="US">United States</option>
                     </optgroup>
@@ -154,6 +154,8 @@
         
         function showCountry(countryId) {
 
+            var scoreField = "ref_score";
+            
             d3.csv("data/" + countryId + ".csv", type, function (error, data) {
                 if (error) throw error;
 
@@ -161,7 +163,7 @@
                     return d.name;
                 }));
                 y.domain([0, d3.max(data, function (d) {
-                    return d.score;
+                    return d[scoreField];
                 })]);
 
                 svg.append("g")
@@ -188,21 +190,24 @@
                         })
                         .attr("width", x.rangeBand())
                         .attr("y", function (d) {
-                            return y(d.score);
+                            return y(d[scoreField]);
                         })
                         .attr("height", function (d) {
-                            return height - y(d.score);
+                            return height - y(d[scoreField]);
                         });
             });
         };
         
         function type(d) {
-            d.score = +d.score;
+            d.ref_score = +d.ref_score;
             return d;
         }
         
         showCountry('NL')
-        
+
+        $('#country').on('change', function() {
+            showCountry(this.value);
+        });
         
 
     </script>

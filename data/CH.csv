@@ -1,5 +1,6 @@
-"name","iati_id","score"
-"gavi","47122",9.72487374208868
-"theglobalfund","47045",6.34340084739961
-"sdc_ch","CH-4",2.42426175973378
-"gain","30001",1.0518321976997
+"iati_id","name","country","source_type","org_type","ref_score"
+"30001","Global Alliance for Improve Nutrition - Org","CH","primary_source","21",0.539979453047394
+"47045","The Global Fund to Fight AIDS, Tuberculosis and Malaria -","CH","primary_source","40",0.166666666667
+"47122","GAVI","CH","primary_source","30",0.165517769608174
+"CH-4","Swiss Agency for Development and Cooperation SDC","CH","primary_source","10",0.885358688929894
+NA,NA,NA,NA,NA,NA

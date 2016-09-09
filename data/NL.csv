@@ -1,24 +1,25 @@
-"name","iati_id","score"
-"scnl","NL-KVK-41201463",14.884757300606
-"agriprofocus","NL-KVK-30204842",14.5449668518268
-"akvo","NL-KVK-27327087",12.8306560940109
-"onl","NL-KVK-27108436",12.3754970042501
-"dai","NL-KVK-41236410",12.1686665515881
-"solidaridad-netherlands","NL-KVK-41150939",11.898082079133
-"zimmzimm","NL-KVK-51018586",11.5896970115136
-"minbuza_nl","XM-DAC-7",11.4218812272884
-"heifer","NL-KVK-20093733",11.1467531695962
-"iucn_nl","NL-KVK-41180885",8.94828015938401
-"zoa","NL-KVK-41009723",8.10026700957678
-"carenederland","NL-KVK-41158230",7.30069427168928
-"somo","NL-KVK-41223308",7.13949993252754
-"nl-kvk-41207989","NL-KVK-41207989",7.00359504204243
-"pax","NL-KVK-30214009",6.83037120848894
-"amnesty","NL-KVK-40530953",6.11318310024217
-"solidaridad","NL-KVK-51756811",5.81561820348725
-"warchildholland","NL-KVK-41215393",5.06513430504128
-"humana_houben","NL-KVK-30285304",4.23478710581549
-"freeagirl","NL-KVK-34308169",3.26695547089912
-"redeenkind","NL-KVK-41022454",2.13781556929462
-"ics","NL-KVK-41188664",2.11588298203424
-"partos_nl","NL-KVK-34214586",1.24504574923776
+"iati_id","name","country","source_type","org_type","ref_score"
+"NL-KVK-20093733","Heifer Nederland","NL","primary_source","22",0.0833333333335
+"NL-KVK-27108436","Oxfam Novib","NL","primary_source","21",0.3253968253965
+"NL-KVK-27327087","Akvo","NL","primary_source","21",0.404112321620327
+"NL-KVK-30204842","AgriProFocus","NL","primary_source","60",NA
+"NL-KVK-30214009","PAX 07-2016","NL","primary_source","21",NA
+"NL-KVK-30285304","Humana people to people","NL","primary_source","21",0
+"NL-KVK-34214586","Partos","NL","primary_source","22",0.2625
+"NL-KVK-34308169","Free a Girl","NL","primary_source","60",0.4597222222226
+"NL-KVK-40530953","Amnesty Int-NL 2Q2016","NL","primary_source","21",0
+"NL-KVK-41009723","ZOA","NL","primary_source","21",0.424351387728526
+"NL-KVK-41022454","Red een Kind","NL","primary_source","21",NA
+"NL-KVK-41150939","Solidaridad Netherlands","NL","primary_source","21",0.5
+"NL-KVK-41158230","Stichting CARE Nederland","NL","primary_source","21",0.00757575757577273
+"NL-KVK-41180885"," 2016-04-30 Q1","NL","primary_source","21",0.111111111111111
+"NL-KVK-41188664","ICS 2013","NL","primary_source","21",0.166666666667
+"NL-KVK-41201463","Save the Children NL organisational dataset","NL","primary_source","21",NA
+"NL-KVK-41207989","Aids Fonds - STOP AIDS NOW! - Soa Aids Nederland","NL","primary_source","21",NA
+"NL-KVK-41215393","WCH-Organisational-File","NL","primary_source","21",NA
+"NL-KVK-41223308","IATI","NL","primary_source","80",0
+"NL-KVK-41236410","Dorcas","NL","primary_source","21",0.388888888889
+"NL-KVK-51018586","Zimmerman and Zimmerman","NL","primary_source","70",0.75
+"NL-KVK-51756811","Solidaridad","NL","primary_source","21",NA
+"XM-DAC-7","Netherlands Ministry of Foreign Affairs","NL","primary_source","10",0.5
+NA,NA,NA,NA,NA,NA
