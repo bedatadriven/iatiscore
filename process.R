@@ -1,5 +1,6 @@
 
 library(rjson)
+library(df2json)
 
 #### LOAD PUBLISHER
 
@@ -37,22 +38,35 @@ pub$name <- gsub(pub$name, pattern = "\\s*organi[sz]ation file", replacement = "
 ### LOAD SCORES
 
 scores <-readr::read_delim("iati/scores.tsv", delim="\t")
-names(scores) <- c("iati_id", "activity_id", "score1", "ref_score", "tx_eur", "tx_count")
+names(scores) <- c("iati_id", "activity_id", "score_particip", "score_tx", "tx_eur", "tx_count")
 
-pubscore <- aggregate(ref_score ~ iati_id, data = scores, FUN = mean, na.action = na.omit)
+### Aggregate scores
+
+
+
+score_particip <- aggregate(score_particip ~ iati_id, data = scores, FUN = mean, na.action = na.omit)
+score_tx <- aggregate(score_tx ~ iati_id, data = scores, FUN = mean, na.action = na.omit)
+tx_eur <- aggregate(tx_eur ~ iati_id, data = scores, FUN = sum, na.action = na.omit)
+tx_count <- aggregate(tx_count ~ iati_id, data = scores, FUN = sum, na.action = na.omit)
+
 
 ### Combine scores and publishers
 
-sumtab <- merge(pub, pubscore, all.x = TRUE)
-sumtab$ref_score[ is.na(sumtab$ref_score) ] <- 0
+sumtab <- merge(pub, score_particip, all.x = TRUE)
+sumtab <- merge(sumtab, score_tx, all.x = TRUE)
+sumtab <- merge(sumtab, tx_eur, all.x = TRUE)
+sumtab <- merge(sumtab, tx_count, all.x = TRUE)
 
-countries <- sort(unique(pub$country))
+for(scoreCol in c("score_particip", "score_tx", "tx_eur", "tx_count")) {
+  sumtab[[scoreCol]][ is.na(sumtab[[scoreCol]]) ] <- 0
+}
+sumtab$score <- (sumtab$score_tx + sumtab$score_particip) / 2
+
+countries <- grep(sort(unique(pub$country)), pattern = "[A-Z]{2}", value = TRUE)
 
 for(country in countries) {
   cat(sprintf("%s\n", country))
   country.scores <- sumtab[sumtab$country == country, ]
   country.scores <- country.scores[!is.na(country.scores$name), ]
-  write.csv(file = sprintf("data/%s.csv", country), 
-            row.names = FALSE,
-            country.scores)
+  cat(file = sprintf("data/%s.json", country), df2json(country.scores))
 }

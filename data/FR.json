@@ -1,0 +1,4 @@
+[{"iati_id":"FR-3","name":"AFD","country":"FR","source_type":"primary_source","org_type":"15","score_particip":0,"score_tx":0,"tx_eur":0,"tx_count":0,"score":0},
+{"iati_id":"FR-6","name":"MFA","country":"FR","source_type":"primary_source","org_type":"10","score_particip":0.410383597883188,"score_tx":0.166170634920967,"tx_eur":137181205.97,"tx_count":612,"score":0.288277116402077},
+{"iati_id":"FR-PDR-W691075333","name":"Handicap International Federation","country":"FR","source_type":"primary_source","org_type":"21","score_particip":0.671875000000313,"score_tx":0.709722222223125,"tx_eur":28742055.3062,"tx_count":67,"score":0.690798611111719},
+{"iati_id":"FR-SIRET-4028868160030","name":"ACTED","country":"FR","source_type":"primary_source","org_type":"21","score_particip":0,"score_tx":0,"tx_eur":0,"tx_count":0,"score":0}]

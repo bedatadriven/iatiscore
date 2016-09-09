@@ -1,0 +1,3 @@
+[{"iati_id":"21033","name":"TIS","country":"DE","source_type":"primary_source","org_type":"21","score_particip":0.479166666667,"score_tx":0.2116792929295,"tx_eur":53637940.8498,"tx_count":55,"score":0.34542297979825},
+{"iati_id":"DE-1","name":"Germany","country":"DE","source_type":"primary_source","org_type":"10","score_particip":0.305171823267192,"score_tx":0.490444114624799,"tx_eur":51551348405,"tx_count":21152,"score":0.397807968945996},
+{"iati_id":"XI-IATI-IKI","name":"BMUB Programmbuero IKI","country":"DE","source_type":"primary_source","org_type":"10","score_particip":0,"score_tx":0,"tx_eur":0,"tx_count":0,"score":0}]
