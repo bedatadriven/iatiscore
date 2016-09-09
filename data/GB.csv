@@ -1,6 +1,6 @@
 "iati_id","name","country","source_type","org_type","ref_score"
-"21020","AIDS Alliance","GB","primary_source","21",NA
-"GB-4","UK Department of Energy and Climate Change","GB","primary_source","10",NA
+"21020","AIDS Alliance","GB","primary_source","21",0
+"GB-4","UK Department of Energy and Climate Change","GB","primary_source","10",0
 "GB-CC-1098893"," blueventures-org","GB","primary_source","21",0.345238095238
 "GB-CHC-000391","The Open University","GB","primary_source","80",0.351851851852
 "GB-CHC-1001349","Samaritan's Purse UK","GB","primary_source","21",1.07463524130367
@@ -9,7 +9,7 @@
 "GB-CHC-1024903","Hospice Africa Ltd","GB","primary_source","80",0.366666666667
 "GB-CHC-1038785","Mifumi UK","GB","primary_source","21",0
 "GB-CHC-1043843","Saferworld","GB","primary_source","21",0.253348870412524
-"GB-CHC-1047501","Action Against Hunger","GB","primary_source","21",NA
+"GB-CHC-1047501","Action Against Hunger","GB","primary_source","21",0
 "GB-CHC-1049160","Anti-Slavery International","GB","primary_source","21",0.4040904471545
 "GB-CHC-1050327"," tlmew-org","GB","primary_source","21",0.7752976190485
 "GB-CHC-1053389","Viva","GB","primary_source","21",0.359259259259
@@ -38,14 +38,14 @@
 "GB-CHC-1092236","Concern Worldwide (UK)","GB","primary_source","21",0.276495726495667
 "GB-CHC-1093861","International Medical Corps UK","GB","primary_source","21",0.5
 "GB-CHC-1094272","Project Harar","GB","primary_source","21",1.10683760684
-"GB-CHC-1094478","Excellent Development","GB","primary_source","21",NA
-"GB-CHC-1096479","ShelterBox","GB","primary_source","21",NA
+"GB-CHC-1094478","Excellent Development","GB","primary_source","21",0
+"GB-CHC-1096479","ShelterBox","GB","primary_source","21",0
 "GB-CHC-1096908"," acaa-org","GB","primary_source","21",0.824074074074
 "GB-CHC-1098106","Relief International UK","GB","primary_source","21",0.570707070707
 "GB-CHC-1098752","Target Tuberculosis","GB","primary_source","21",0.8338133640555
 "GB-CHC-1099776","Malaria Consortium","GB","primary_source","21",0.971675799949864
 "GB-CHC-1101217","LAMB Health Care Foundation","GB","primary_source","22",0.433333333333
-"GB-CHC-1104287","MicroLoan Foundation","GB","primary_source","21",NA
+"GB-CHC-1104287","MicroLoan Foundation","GB","primary_source","21",0
 "GB-CHC-1104458","Theatre for a Change UK","GB","primary_source","21",0.895238095238
 "GB-CHC-1105489","The Sabre Charitable Trust","GB","primary_source","21",0.426666666667
 "GB-CHC-1105851","Christian Aid","GB","primary_source","21",0.166666666667
@@ -61,7 +61,7 @@
 "GB-CHC-1120932","Network for Africa","GB","primary_source","21",0.688034188034
 "GB-CHC-1121273","FRANK Water","GB","primary_source","21",0
 "GB-CHC-1122299","Interburns","GB","primary_source","21",0.411111111111
-"GB-CHC-1122799","Retrak","GB","primary_source","21",NA
+"GB-CHC-1122799","Retrak","GB","primary_source","21",0
 "GB-CHC-1122924","Developments In Literacy Trust UK","GB","primary_source","21",1.04545454545
 "GB-CHC-1125217","Welbodi Partnership","GB","primary_source","80",0.388888888889
 "GB-CHC-1125512","Lively Minds","GB","primary_source","21",0.395833333333
@@ -73,7 +73,7 @@
 "GB-CHC-1138287"," rfuk-org","GB","primary_source","21",1.02355072464
 "GB-CHC-1139083","GROW Movement","GB","primary_source","80",0.2575757575755
 "GB-CHC-1140123"," vfan-org","GB","","21",0.833333333333
-"GB-CHC-1143852","hagar_uk","GB","primary_source","21",NA
+"GB-CHC-1143852","hagar_uk","GB","primary_source","21",0
 "GB-CHC-1147083","Rojiroti UK","GB","primary_source","21",1.06818181818
 "GB-CHC-1150214","Carers Worldwide","GB","primary_source","21",0.438596491228
 "GB-CHC-1152010","Child-to-Child","GB","primary_source","21",0.486486486486
@@ -83,12 +83,12 @@
 "GB-CHC-208724","War on Want","GB","primary_source","21",0.73400054466225
 "GB-CHC-213251","Lepra","GB","primary_source","21",0.391713747645667
 "GB-CHC-218186","Leonard Cheshire Disability","GB","primary_source","21",0.735507246377
-"GB-CHC-229476","International Planned Parenthood Federation","GB","primary_source","21",NA
+"GB-CHC-229476","International Planned Parenthood Federation","GB","primary_source","21",0
 "GB-CHC-250456"," fyf-org","GB","primary_source","21",0.61925815584875
 "GB-CHC-254781","The International Children\'s Trust","GB","primary_source","21",0.457427757427667
 "GB-CHC-261488","Amref Health Africa - UK","GB","primary_source","21",1.10215053763
 "GB-CHC-265464","tearfund","GB","primary_source","21",0.4310846560845
-"GB-CHC-272465","Concern Universal","GB","primary_source","21",NA
+"GB-CHC-272465","Concern Universal","GB","primary_source","21",0
 "GB-CHC-281681","Friends of the Earth England, Wales and Northern Ireland","GB","primary_source","22",1.05128205128
 "GB-CHC-283302","ACORD","GB","primary_source","21",0.787087912088
 "GB-CHC-288701","WaterAid","GB","primary_source","21",0.500005166575522
@@ -99,8 +99,8 @@
 "GB-CHC-295224","Muslim Aid","GB","primary_source","21",1
 "GB-CHC-298316"," buildafrica-org","GB","primary_source","21",0.425925925926
 "GB-CHC-299717"," sendacow-org","GB","","21",0.790071763059833
-"GB-CHC-313757","Voluntary Service Overseas (VSO)","GB","primary_source","21",NA
-"GB-CHC-326859","AbleChildAfrica","GB","primary_source","21",NA
+"GB-CHC-313757","Voluntary Service Overseas (VSO)","GB","primary_source","21",0
+"GB-CHC-326859","AbleChildAfrica","GB","primary_source","21",0
 "GB-CHC-327421"," art19-org","GB","primary_source","21",0.9779411764705
 "GB-CHC-327519","Zimbabwe Educational Trust","GB","primary_source","21",0.847222222222
 "GB-CHC-328206","Womankind Worldwide","GB","primary_source","21",0.598923352288577
@@ -120,7 +120,7 @@
 "GB-COH-07676886","Publish What You Fund","GB","primary_source","21",0.166666666667
 "GB-COH-1100897"," akfuk73-org","GB","primary_source","21",0.7517361111115
 "GB-COH-1102208"," msi-org","GB","primary_source","21",0.2743055555555
-"GB-COH-1158838","The Freedom Fund","GB","primary_source","21",NA
+"GB-COH-1158838","The Freedom Fund","GB","primary_source","21",0
 "GB-COH-1364201","Plan UK","GB","primary_source","21",0.191025641025692
 "GB-COH-1762840"," helpage_international-org","GB","primary_source","21",0.157520325203567
 "GB-COH-1858644","DAI Europe","GB","primary_source","70",0.398052464964364
@@ -129,7 +129,7 @@
 "GB-COH-2695347","Options Consultancy Services","GB","primary_source","70",0.166666666667
 "GB-COH-2732176","Adam Smith International","GB","primary_source","70",0.166666666667143
 "GB-COH-294860","ADD International","GB","","21",0.910060645441111
-"GB-COH-3008440"," fm-org","GB","","21",NA
+"GB-COH-3008440"," fm-org","GB","","21",0
 "GB-COH-3195485","WYG International Ltd","GB","primary_source","70",0.25
 "GB-COH-3799145","Coffey International Development","GB","primary_source","70",0.196626984127
 "GB-COH-4884328","Integrity Action","GB","primary_source","21",0.0507246376811304
@@ -146,5 +146,4 @@
 "GB-SC-037597","CIFAL Scotland","GB","primary_source","80",0.818181818182
 "GB-SC-SC012302","Scottish Catholic International Aid Fund","GB","primary_source","21",1.10109289617
 "GB-SC-SC030289","MERCY CORPS EUROPE","GB","primary_source","21",0.597841332456692
-"XM-DAC-12-22","Welsh Government","GB","primary_source","10",NA
-NA,NA,NA,NA,NA,NA
+"XM-DAC-12-22","Welsh Government","GB","primary_source","10",0

@@ -1,5 +1,4 @@
 "iati_id","name","country","source_type","org_type","ref_score"
-"SACU"," sacu-org","UG","primary_source","22",NA
+"SACU"," sacu-org","UG","primary_source","22",0
 "UG-NGB-5914-1107","Stromme Foundation","UG","primary_source","22",0
-"UG-NGB-5914-9186","CRANE","UG","primary_source","22",NA
-NA,NA,NA,NA,NA,NA
+"UG-NGB-5914-9186","CRANE","UG","primary_source","22",0

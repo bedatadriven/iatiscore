@@ -22,28 +22,17 @@
         padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
-    .bar {
-      fill: steelblue;
+
+    #chart rect {
+        fill: steelblue;
     }
 
-    .bar:hover {
-      fill: brown;
+    #chart text {
+        fill: black;
+        font: 10px sans-serif;
+        text-anchor: start;
     }
 
-    .axis {
-      font: 10px sans-serif;
-    }
-
-    .axis path,
-    .axis line {
-      fill: none;
-      stroke: #000;
-      shape-rendering: crispEdges;
-    }
-
-    .x.axis path {
-      display: none;
-    }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -92,10 +81,8 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>IATI Score Card</h1>
-                <div id="chart">
-                    
-                </div>
-                
+
+
                 <div><select id="country">
                     <option>Global Comparison</option>
                     <optgroup label="OECD">
@@ -105,6 +92,10 @@
                     </optgroup>
                 </select>
                 </div>
+                
+                <svg id="chart"></svg>
+
+
               
             </div>
         </div>
@@ -122,75 +113,55 @@
 
     <script>
 
-        var margin = {top: 20, right: 20, bottom: 30, left: 40},
-                width = 960 - margin.left - margin.right,
-                height = 500 - margin.top - margin.bottom;
 
-        var x = d3.scale.ordinal()
-                .rangeRoundBands([0, width], .1);
+        var width = 420;
+        var barHeight = 20;
 
-        var y = d3.scale.linear()
-                .range([height, 0]);
+ 
 
-        var xAxis = d3.svg.axis()
-                .scale(x)
-                .orient("bottom");
-
-        var yAxis = d3.svg.axis()
-                .scale(y)
-                .orient("left")
-                .ticks(1);
-
-        var svg = d3.select("#chart").append("svg")
-                .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom)
-                .append("g")
-                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-        
         function showCountry(countryId) {
 
             var scoreField = "ref_score";
             
             d3.csv("data/" + countryId + ".csv", type, function (error, data) {
                 if (error) throw error;
+                
+                data.sort(function(a, b) { 
+                   return b[scoreField] - a[scoreField]; 
+                });
 
-                x.domain(data.map(function (d) {
-                    return d.name;
-                }));
-                y.domain([0, d3.max(data, function (d) {
-                    return d[scoreField];
-                })]);
+                var maxScore = d3.max(data, function(d) { return d[scoreField]; });
 
-                svg.append("g")
-                        .attr("class", "x axis")
-                        .attr("transform", "translate(0," + height + ")")
-                        .call(xAxis);
 
-                svg.append("g")
-                        .attr("class", "y axis")
-                        .call(yAxis)
-                        .append("text")
-                        .attr("transform", "rotate(-90)")
-                        .attr("y", 6)
-                        .attr("dy", ".71em")
-                        .style("text-anchor", "end")
-                        .text("Score");
+                // Resize the chart to match the number of organizations
+                var chart = d3.select("#chart")
+                        .attr("width", width)
+                        .attr("height", barHeight * data.length);
 
-                svg.selectAll(".bar")
+                // Update x scale to use the maximum score in this dataset
+                var x = d3.scale.linear()
+                        .range([0, width])
+                        .domain([0, maxScore]);
+
+                var selection = chart.selectAll("g")
                         .data(data)
-                        .enter().append("rect")
-                        .attr("class", "bar")
-                        .attr("x", function (d) {
-                            return x(d.name);
-                        })
-                        .attr("width", x.rangeBand())
-                        .attr("y", function (d) {
-                            return y(d[scoreField]);
-                        })
-                        .attr("height", function (d) {
-                            return height - y(d[scoreField]);
-                        });
+                        .enter();
+                
+                var bar = selection.append("g")
+                        .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; })
+
+                bar.append("rect")
+                        .attr("width", function(d) { return x(d[scoreField]); })
+                        .attr("height", barHeight - 1);
+
+                bar.append("text")
+                        .attr("x", 0)
+                        .attr("y", barHeight / 2)
+                        .attr("dy", ".35em")
+                        .text(function(d) { return d.name; });
+                
+                selection.exit();
+                
             });
         };
         
@@ -199,7 +170,7 @@
             return d;
         }
         
-        showCountry('NL')
+        showCountry('NL');
 
         $('#country').on('change', function() {
             showCountry(this.value);
