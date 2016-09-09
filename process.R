@@ -7,7 +7,7 @@ org.files <- fromJSON(file="iati/orgfiles.json")
 results <- org.files$result$results
 
 
-pub <- data.frame(title = character(0),
+pub <- data.frame(name = character(0),
                  iati_id = character(0), 
                  country = character(0),
                  source_type = character(0),
@@ -28,6 +28,9 @@ for(i in seq_along(results)) {
   pub[i, "score"] <- runif(1, min=0, max=15)
 }
 
+# Remove duplicates
+pub <- pub[!duplicated(pub$iati_id) & !is.na(pub$name), ]
+
 
 ### LOAD SCORES
 
@@ -46,7 +49,11 @@ sumtab <- merge(pub, pubscore, all.x = TRUE)
 countries <- sort(unique(pub$country))
 
 for(country in countries) {
+  cat(sprintf("%s\n", country))
+  country.scores <- pub[pub$country == country, c("name", "iati_id", "score")]
+  country.scores <- country.scores[ order(-country.scores$score), ]
+  
   write.csv(file = sprintf("data/%s.csv", country), 
             row.names = FALSE,
-            x = pub[pub$country == country, c("title", "iati_id", "score")])
+            country.scores)
 }

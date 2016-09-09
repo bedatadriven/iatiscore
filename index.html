@@ -143,7 +143,7 @@
         var yAxis = d3.svg.axis()
                 .scale(y)
                 .orient("left")
-                .ticks(10, "%");
+                .ticks(1);
 
         var svg = d3.select("#chart").append("svg")
                 .attr("width", width + margin.left + margin.right)
@@ -158,10 +158,10 @@
                 if (error) throw error;
 
                 x.domain(data.map(function (d) {
-                    return d.letter;
+                    return d.name;
                 }));
                 y.domain([0, d3.max(data, function (d) {
-                    return d.frequency;
+                    return d.score;
                 })]);
 
                 svg.append("g")
@@ -177,31 +177,32 @@
                         .attr("y", 6)
                         .attr("dy", ".71em")
                         .style("text-anchor", "end")
-                        .text("Frequency");
+                        .text("Score");
 
                 svg.selectAll(".bar")
                         .data(data)
                         .enter().append("rect")
                         .attr("class", "bar")
                         .attr("x", function (d) {
-                            return x(d.letter);
+                            return x(d.name);
                         })
                         .attr("width", x.rangeBand())
                         .attr("y", function (d) {
-                            return y(d.frequency);
+                            return y(d.score);
                         })
                         .attr("height", function (d) {
-                            return height - y(d.frequency);
+                            return height - y(d.score);
                         });
             });
         };
         
         function type(d) {
-            d.frequency = +d.frequency;
+            d.score = +d.score;
             return d;
         }
         
         showCountry('NL')
+        
         
 
     </script>
