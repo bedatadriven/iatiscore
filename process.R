@@ -41,17 +41,17 @@ names(scores) <- c("iati_id", "activity_id", "score1", "ref_score", "tx_eur", "t
 
 pubscore <- aggregate(ref_score ~ iati_id, data = scores, FUN = mean, na.action = na.omit)
 
-
 ### Combine scores and publishers
 
 sumtab <- merge(pub, pubscore, all.x = TRUE)
+sumtab$ref_score[ is.na(sumtab$ref_score) ] <- 0
 
 countries <- sort(unique(pub$country))
 
 for(country in countries) {
   cat(sprintf("%s\n", country))
   country.scores <- sumtab[sumtab$country == country, ]
-
+  country.scores <- country.scores[!is.na(country.scores$name), ]
   write.csv(file = sprintf("data/%s.csv", country), 
             row.names = FALSE,
             country.scores)
