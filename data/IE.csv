@@ -1,7 +1,7 @@
-"title","iati_id","score"
-NA,"XM-DAC-21-1",2.96383373206481
-NA,"CHY6271",12.6801981555764
-NA,NA,NA
-NA,"IE-CHY-6998",12.9506590333767
-NA,"IE-CHY-15037",2.54114815033972
-NA,"IE-CHY-6663",6.35645190021023
+"iati_id","name","country","source_type","org_type","ref_score"
+"CHY6271","GOAL UK","IE","primary_source","21",NA
+"IE-CHY-15037","Plan Ireland Charitable Assistance Limited","IE","primary_source","21",0.333333333333
+"IE-CHY-6663","Self Help Africa","IE","primary_source","21",NA
+"IE-CHY-6998","","IE","primary_source","21",NA
+"XM-DAC-21-1","Department of Foreign Affairs and Trade / Irish Aid","IE","primary_source","10",0.68386816999255
+NA,NA,NA,NA,NA,NA

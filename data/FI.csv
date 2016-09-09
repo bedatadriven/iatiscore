@@ -1,4 +1,4 @@
-"title","iati_id","score"
-NA,"FI-3",5.06440463592298
-NA,NA,NA
-NA,"FI-PRO-143138",3.37122164550237
+"iati_id","name","country","source_type","org_type","ref_score"
+"FI-3","Finland","FI","primary_source","10",0.698833909727882
+"FI-PRO-143138","Kepa ry","FI","primary_source","22",0.2377777777778
+NA,NA,NA,NA,NA,NA

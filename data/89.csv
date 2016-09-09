@@ -1,7 +1,7 @@
-"title","iati_id","score"
-NA,"XI-IATI-EC_ECHO",3.90838661813177
-NA,"XM-DAC-918-3",4.55499400268309
-NA,"XI-IATI-EC_DEVCO",9.44384060916491
-NA,"XI-IATI-EC_NEAR",13.4126997424755
-NA,"XI-IATI-EC_FPI",4.24689631909132
-NA,NA,NA
+"iati_id","name","country","source_type","org_type","ref_score"
+"XI-IATI-EC_DEVCO","European Commission - EuropeAid","89","primary_source","15",0.162453370194464
+"XI-IATI-EC_ECHO","ECHO organisation report","89","primary_source","15",0.385758578541007
+"XI-IATI-EC_FPI","European Commission - Service for Foreign Policy Instruments","89","primary_source","15",0.166666666667
+"XI-IATI-EC_NEAR","European Commission - Neighbourhood and Enlargement Negotiations","89","primary_source","15",0.161107576721822
+"XM-DAC-918-3","EIB -","89","primary_source","40",0.166666666667
+NA,NA,NA,NA,NA,NA

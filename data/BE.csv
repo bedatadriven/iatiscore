@@ -1,5 +1,5 @@
-"title","iati_id","score"
-NA,"BE-BCE-0447404580",11.0937569278758
-NA,"BE-10",4.08327847835608
-NA,"BE-BCE_KBO-0264814354",7.22771891509183
-NA,NA,NA
+"iati_id","name","country","source_type","org_type","ref_score"
+"BE-10","Belgian Development Cooperation","BE","primary_source","10",0.5
+"BE-BCE-0447404580","Avocats Sans Frontières","BE","primary_source","21",0
+"BE-BCE_KBO-0264814354","Belgian development agency (BTC)","BE","primary_source","10",0
+NA,NA,NA,NA,NA,NA

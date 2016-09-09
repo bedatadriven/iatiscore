@@ -98,7 +98,7 @@
                 <div><select id="country">
                     <option>Global Comparison</option>
                     <optgroup label="OECD">
-                        <option value="NL">Netherlands</option>
+                        <option value="NL" selected>Netherlands</option>
                         <option value="GB">United Kingdom</option>
                         <option value="US">United States</option>
                     </optgroup>
@@ -138,7 +138,7 @@
         var yAxis = d3.svg.axis()
                 .scale(y)
                 .orient("left")
-                .ticks(10, "%");
+                .ticks(1);
 
         var svg = d3.select("#chart").append("svg")
                 .attr("width", width + margin.left + margin.right)
@@ -149,14 +149,16 @@
         
         function showCountry(countryId) {
 
+            var scoreField = "ref_score";
+            
             d3.csv("data/" + countryId + ".csv", type, function (error, data) {
                 if (error) throw error;
 
                 x.domain(data.map(function (d) {
-                    return d.letter;
+                    return d.name;
                 }));
                 y.domain([0, d3.max(data, function (d) {
-                    return d.frequency;
+                    return d[scoreField];
                 })]);
 
                 svg.append("g")
@@ -172,31 +174,35 @@
                         .attr("y", 6)
                         .attr("dy", ".71em")
                         .style("text-anchor", "end")
-                        .text("Frequency");
+                        .text("Score");
 
                 svg.selectAll(".bar")
                         .data(data)
                         .enter().append("rect")
                         .attr("class", "bar")
                         .attr("x", function (d) {
-                            return x(d.letter);
+                            return x(d.name);
                         })
                         .attr("width", x.rangeBand())
                         .attr("y", function (d) {
-                            return y(d.frequency);
+                            return y(d[scoreField]);
                         })
                         .attr("height", function (d) {
-                            return height - y(d.frequency);
+                            return height - y(d[scoreField]);
                         });
             });
         };
         
         function type(d) {
-            d.frequency = +d.frequency;
+            d.ref_score = +d.ref_score;
             return d;
         }
         
         showCountry('NL')
+
+        $('#country').on('change', function() {
+            showCountry(this.value);
+        });
         
 
     </script>
