@@ -22,6 +22,22 @@
         padding-top: 70px;
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
+
+    .svg-container {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+
+    .svg-content {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     
     #chart {
         margin-top: 10px;
@@ -134,7 +150,11 @@
                     </select>
                 </div>
                 
-                <svg id="chart"></svg>
+                <div class="svg-container">
+                    <svg id="chart" preserveAspectRatio="xMinYMin meet" class="svg-content">
+                        
+                    </svg>
+                </div>
 
             </div>
         </div>
@@ -153,7 +173,7 @@
     <script>
 
 
-        var width = 420;
+        var width = 600;
         var barHeight = 35;
         
         var formatEuro = function(x) {
@@ -183,9 +203,14 @@
             var scoreField = $( "#metric" ).val();
             var formatter = formatters[scoreField];
             
+
             d3.json("data/" + countryId + ".json", function (error, data) {
                 if (error) throw error;
-                
+
+                if(history.pushState) {
+                    history.pushState(null, "IATI Score Card: " + $("#country").text(), "#" + countryId + "/" + scoreField)
+                }
+
                 data.sort(function(a, b) { 
                    return b[scoreField] - a[scoreField]; 
                 });
@@ -195,8 +220,7 @@
 
                 // Resize the chart to match the number of organizations
                 var chart = d3.select("#chart")
-                        .attr("width", width)
-                        .attr("height", barHeight * data.length);
+                        .attr("viewBox", "0 0 " + width + " " + (barHeight * data.length));
 
                 // Update x scale to use the maximum score in this dataset
                 var x = d3.scale.linear()
@@ -226,8 +250,13 @@
             });
         };
         
+        if(window.location.hash) {
+            var parts = window.location.hash.substr(1).split("/");
+            $("#country").val(parts[0]);
+            $("#metric").val(parts[1]);
+        }
         
-        showCountry('NL');
+        showCountry();
 
         $('#country').on('change', function() {
             showCountry();
